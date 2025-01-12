@@ -11,6 +11,5 @@
       "src": "/api/generate-pdf",
       "dest": "index.js"
     }
-  ],
-  "rewrites": [{ "source": "/(.*)", "destination": "/" }]
+  ]
 }
