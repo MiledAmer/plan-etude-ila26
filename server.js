@@ -5,6 +5,9 @@ const bodyParser = require('body-parser');
 const app = express();
 app.use(bodyParser.json());
 
+app.get('/', (req, res) => {
+    res.send('Hello, World!');
+});
 // Endpoint to generate PDF
 app.post('/api/generate-pdf', async (req, res) => {
     try {
